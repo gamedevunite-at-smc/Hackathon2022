@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{E6C16EA0-8BA4-B037-940F-95FBF0697E02}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.Core.Runtime.csproj", "{F13E4C44-8CD8-6182-4169-658674CE525C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{207B52B5-9EDF-70CB-194C-650BE810F2DB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{E6C16EA0-8BA4-B037-940F-95FBF0697E02}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Flow", "Unity.VisualScripting.Flow.csproj", "{236C4ED3-ECEA-AF34-C8BE-40C6898705E8}"
 EndProject
@@ -44,6 +44,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.Shaders", "Unity.RenderPipelines.Universal.Shaders.csproj", "{09271665-CDB2-3DCA-BCA5-AB9C0EACC12D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary", "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj", "{BE078ED3-8224-2A01-7274-DA1DF4BFE0A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{0A2A2674-9ED0-679F-607E-39739B164E39}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PlasticSCM.Editor", "Unity.PlasticSCM.Editor.csproj", "{008BD55F-9054-5BA9-3F92-E2152DE3DB94}"
 EndProject
@@ -123,6 +125,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6C16EA0-8BA4-B037-940F-95FBF0697E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C16EA0-8BA4-B037-940F-95FBF0697E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C16EA0-8BA4-B037-940F-95FBF0697E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C16EA0-8BA4-B037-940F-95FBF0697E02}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F13E4C44-8CD8-6182-4169-658674CE525C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F13E4C44-8CD8-6182-4169-658674CE525C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F13E4C44-8CD8-6182-4169-658674CE525C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -131,10 +137,6 @@ Global
 		{207B52B5-9EDF-70CB-194C-650BE810F2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{207B52B5-9EDF-70CB-194C-650BE810F2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{207B52B5-9EDF-70CB-194C-650BE810F2DB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E6C16EA0-8BA4-B037-940F-95FBF0697E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E6C16EA0-8BA4-B037-940F-95FBF0697E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E6C16EA0-8BA4-B037-940F-95FBF0697E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E6C16EA0-8BA4-B037-940F-95FBF0697E02}.Release|Any CPU.Build.0 = Release|Any CPU
 		{236C4ED3-ECEA-AF34-C8BE-40C6898705E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{236C4ED3-ECEA-AF34-C8BE-40C6898705E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{236C4ED3-ECEA-AF34-C8BE-40C6898705E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -211,6 +213,10 @@ Global
 		{BE078ED3-8224-2A01-7274-DA1DF4BFE0A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE078ED3-8224-2A01-7274-DA1DF4BFE0A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE078ED3-8224-2A01-7274-DA1DF4BFE0A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A2A2674-9ED0-679F-607E-39739B164E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2A2674-9ED0-679F-607E-39739B164E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2A2674-9ED0-679F-607E-39739B164E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2A2674-9ED0-679F-607E-39739B164E39}.Release|Any CPU.Build.0 = Release|Any CPU
 		{008BD55F-9054-5BA9-3F92-E2152DE3DB94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{008BD55F-9054-5BA9-3F92-E2152DE3DB94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{008BD55F-9054-5BA9-3F92-E2152DE3DB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
