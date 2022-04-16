@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - OverlayCamera
   layers:
   - Default
   - TransparentFX
@@ -14,7 +15,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - VFX
   - 
   - 
   - 
@@ -41,6 +42,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Trees
+  - name: No Light
+    uniqueID: 2632113067
+    locked: 0
+  - name: 
     uniqueID: 3547780315
+    locked: 0
+  - name: 
+    uniqueID: 2685664987
+    locked: 0
+  - name: PlayerLight
+    uniqueID: 392266841
+    locked: 0
+  - name: GlobalLights
+    uniqueID: 2526303345
+    locked: 0
+  - name: AmbientLights
+    uniqueID: 1049617723
+    locked: 0
+  - name: New Layer 6
+    uniqueID: 3833713111
     locked: 0

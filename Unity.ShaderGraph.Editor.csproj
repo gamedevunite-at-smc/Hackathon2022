@@ -530,10 +530,10 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.6\Editor\Drawing\Inspector\PropertyDrawerUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.6\Editor\Drawing\Controls\PopupControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.6\Editor\Drawing\Views\Slots\LabelSlotControlView.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.6\Editor\Data\Attributes\SRPFilterAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.6\Editor\Data\Graphs\GradientShaderProperty.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.6\Editor\Data\Util\PooledList.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.6\Editor\Drawing\Views\IShaderNodeView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.6\Editor\Data\Attributes\SRPFilterAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.6\Editor\Drawing\Interfaces\ISGControlledElement.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.6\Editor\Data\Nodes\Channel\FlipNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@12.1.6\Editor\Data\Nodes\Artistic\Adjustment\SaturationNode.cs" />

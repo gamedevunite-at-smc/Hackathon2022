@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 2055102311959635368}
   - component: {fileID: 2055102311959635374}
   - component: {fileID: 2029549500}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: PF Props Bush T6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2055102311959635375
 Transform:
@@ -131,7 +131,7 @@ MonoBehaviour:
   m_UseRendererSilhouette: 1
   m_CastsShadows: 1
   m_SelfShadows: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 598461173be58f3e
   m_ShapePath:
   - {x: -0.24432516, y: 0.14592505, z: 0}
   - {x: -0.25066972, y: 0.35777855, z: 0}
@@ -139,7 +139,7 @@ MonoBehaviour:
   - {x: 0.25066972, y: 0.13958073, z: 0}
   m_ShapePathHash: 1292607301
   m_Mesh: {fileID: 0}
-  m_InstanceId: -108142
+  m_InstanceId: -116254
 --- !u!1 &2055102312182832482
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,12 +150,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2055102312182832481}
   - component: {fileID: 2055102312182832480}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2055102312182832481
 Transform:
@@ -179,7 +179,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2055102312182832482}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -210,7 +210,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1869315837
+  m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300040, guid: 8501e10b1eafde34586080ba342fdc0e, type: 3}

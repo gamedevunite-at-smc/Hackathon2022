@@ -56,11 +56,15 @@
     <Analyzer Include="F:\Programs\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
-    <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
-    <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
+    <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
+    <Compile Include="Assets\Scripts\LightTorchFlickering.cs" />
+    <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\LightTorchScript.cs" />
+    <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
+    <Compile Include="Assets\Scripts\TorchScript.cs" />
+    <Compile Include="Assets\Scripts\Campfire.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cainos\Pixel Art Top Down - Basic\Changelog.txt" />
@@ -904,6 +908,14 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{48A36821-414A-6FDE-FB90-A65E595E9078}</Project>
       <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualEffectGraph.Editor.csproj">
+      <Project>{DFA8BD19-5D4D-649B-C0C9-D3EDD10ACB42}</Project>
+      <Name>Unity.VisualEffectGraph.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualEffectGraph.Runtime.csproj">
+      <Project>{B1744D1F-74BA-3303-8295-41A7B436EE8F}</Project>
+      <Name>Unity.VisualEffectGraph.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
