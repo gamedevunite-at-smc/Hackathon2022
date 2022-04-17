@@ -4,12 +4,9 @@ using UnityEngine;
 
 public class Campfire : MonoBehaviour
 {
-
     [SerializeField] private float interactionDistance = 1.0f;
 
     private new Transform transform;
-
-    private Transform playerTransform;
 
     private void Awake()
     {
@@ -18,11 +15,11 @@ public class Campfire : MonoBehaviour
 
     void Update()
     {
-        if(Vector3.Distance(transform.position, playerTransform.position) <= interactionDistance)
+        if (Vector3.Distance(transform.position, PlayerScript.playerTransform.position) <= interactionDistance)
         {
-            if(Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space) | Input.GetKeyDown(KeyCode.Return))
             {
-                //Refill TorchScript
+                PlayerScript.torchScript.RefreshTimer();
             }
         }
     }
