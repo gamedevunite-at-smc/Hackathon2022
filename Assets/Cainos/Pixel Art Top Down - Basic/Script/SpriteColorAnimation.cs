@@ -10,6 +10,8 @@ namespace Cainos.PixelArtTopDown_Basic
         public Gradient gradient;
         public float time;
 
+        public bool run = true;
+
         private SpriteRenderer sr;
         private float timer;
 
@@ -21,7 +23,7 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private void Update()
         {
-            if (sr)
+            if (sr & run)
             {
                 timer += Time.deltaTime;
                 if (timer > time) timer = 0.0f;
