@@ -111784,6 +111784,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1467318312, guid: e3bc934bf328d8f42ad41895044197bf, type: 3}
+      propertyPath: m_Volume
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 7636015615584337590, guid: e3bc934bf328d8f42ad41895044197bf, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -128225,6 +128229,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 764169346, guid: fa4f1433c35460b4bbb512f455f92b97, type: 3}
+      propertyPath: m_Volume
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1202099183, guid: fa4f1433c35460b4bbb512f455f92b97, type: 3}
+      propertyPath: m_Volume
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 5033874442939616224, guid: fa4f1433c35460b4bbb512f455f92b97, type: 3}
       propertyPath: m_Mesh
       value: 
