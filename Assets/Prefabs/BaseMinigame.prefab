@@ -287,6 +287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionDistance: 1
+  spriteColorAnimation: {fileID: 0}
   isSet: 0
 --- !u!1 &2126149399220465585
 GameObject:
@@ -598,6 +599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionDistance: 1
+  spriteColorAnimation: {fileID: 0}
   isSet: 0
 --- !u!1 &2319207566492858817
 GameObject:
@@ -970,6 +972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionDistance: 1
+  spriteColorAnimation: {fileID: 0}
   isSet: 0
 --- !u!1 &2551901045539393444
 GameObject:
@@ -1487,6 +1490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionDistance: 1
+  spriteColorAnimation: {fileID: 0}
   isSet: 0
 --- !u!1 &4514980915085219545
 GameObject:
@@ -1914,4 +1918,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionDistance: 1
+  spriteColorAnimation: {fileID: 0}
   isSet: 0
