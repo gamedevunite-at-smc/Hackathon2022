@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6115d991f7cd65646911491bc1ebbd30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maximumTourchTime: 100
+  maximumTourchTime: 8
   refillSpeed: 5
 --- !u!114 &2405625301250837445
 MonoBehaviour:
@@ -448,11 +448,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8032385272764935293}
-  - component: {fileID: 8032385272764935280}
   - component: {fileID: 8032385272764935292}
   - component: {fileID: 7022129081306701406}
   - component: {fileID: 1467318312}
   - component: {fileID: 1467318311}
+  - component: {fileID: 915485721709206095}
   m_Layer: 8
   m_Name: Renderer
   m_TagString: Player
@@ -475,19 +475,6 @@ Transform:
   m_Father: {fileID: 7636015615584337590}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8032385272764935280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8032385272764935295}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abd146093740c5d43b5909c7913f3109, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
 --- !u!212 &8032385272764935292
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -752,3 +739,16 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 14ae706fef2303e4cb71112dbd5d250b, type: 3}
   - {fileID: 8300000, guid: b995bc1775ea83b4b8f861763e9a1424, type: 3}
   - {fileID: 8300000, guid: d15f7338d693f0343843a6b9096d27f6, type: 3}
+--- !u!114 &915485721709206095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8032385272764935295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c779a6d489e99a44cb38eefdc0151939, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3

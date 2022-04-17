@@ -17,7 +17,9 @@ public class EndMenuScript : MonoBehaviour
     {
         if(hasEnded)
         {
-            if(Input.anyKeyDown)
+            AudioManager.DimAudio();
+
+            if (Input.anyKeyDown)
             {
                 Application.Quit();
             }

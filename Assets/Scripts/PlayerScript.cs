@@ -25,11 +25,6 @@ public class PlayerScript : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            EndMenuScript.EndMenu();
-        }
-
 
         float speed = walkingSpeed;
 
