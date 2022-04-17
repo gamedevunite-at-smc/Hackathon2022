@@ -43,6 +43,7 @@ public class ColorMinigame : MonoBehaviour
             if(Mathf.Abs(color.r - destinedColor.r) < margineOfError & Mathf.Abs(color.g - destinedColor.g) < margineOfError & Mathf.Abs(color.b - destinedColor.b) < margineOfError)
             {
                 //win
+                EndMenuScript.CompleteMinigame();
                 hasWon = true;
                 markerEnabledScript.Enable();
             }

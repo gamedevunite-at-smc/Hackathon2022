@@ -125,8 +125,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6115d991f7cd65646911491bc1ebbd30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maximumTourchTime: 8
+  maximumTourchTime: 100
   refillSpeed: 5
+  holdBurn: 0
 --- !u!114 &2405625301250837445
 MonoBehaviour:
   m_ObjectHideFlags: 0
