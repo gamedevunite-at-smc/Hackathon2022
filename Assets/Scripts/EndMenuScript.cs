@@ -7,7 +7,7 @@ public class EndMenuScript : MonoBehaviour
     private static new Animator animator;
     private static bool hasEnded = false;
 
-    public static int finalMinigameCount = 5;
+    public static int finalMinigameCount = 4;
     public static int minigameCount = 0;
 
     private void Awake()
