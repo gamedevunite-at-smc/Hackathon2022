@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CoffinMinigame : MonoBehaviour
 {
-    public CoffinSelection[] coffinSelectionScripts = new CoffinSelection[5];
+    public CoffinSelection[] coffinSelectionScripts;
 
     private bool isSolved = false;
 
