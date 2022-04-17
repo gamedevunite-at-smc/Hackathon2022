@@ -14,6 +14,8 @@ public class TorchScript : MonoBehaviour
 
     private bool burnTorch = true;
 
+    public bool holdBurn = false;
+
     private void Awake()
     {
         lightTorchScript = GetComponentInChildren<LightTorchScript>();
@@ -27,7 +29,7 @@ public class TorchScript : MonoBehaviour
     private void Update()
     {
 
-        if (!burnTorch) return;
+        if (!burnTorch | holdBurn) return;
 
         torchTime -= Time.deltaTime;
 
@@ -35,6 +37,10 @@ public class TorchScript : MonoBehaviour
 
         if (torchTime <= 0)
         {
+            FailedMenuScript.EndMenu();
+
+            holdBurn = true;
+
             //We ran out of time!!
             //End game?
         }
