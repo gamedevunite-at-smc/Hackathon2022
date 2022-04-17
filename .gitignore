@@ -10,3 +10,7 @@ Logs/shadercompiler-UnityShaderCompiler.exe0.log
 Logs/shadercompiler-AssetImportWorker0.log
 Logs/AssetImportWorker1.log
 Logs/AssetImportWorker0.log
+.csproj
+*.csproj
+Assets\Music
+*.cache
