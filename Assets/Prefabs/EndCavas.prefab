@@ -1480,6 +1480,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadbea7949640e445aa01a2ce23b3837, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _finishedAudioClips:
+  - {fileID: 8300000, guid: 657578e4be6b64dbf9b09deada272e55, type: 3}
+  - {fileID: 8300000, guid: 5fdb13d3756c84fecac96f5a2d124370, type: 3}
+  - {fileID: 8300000, guid: 657578e4be6b64dbf9b09deada272e55, type: 3}
+  - {fileID: 8300000, guid: 5fdb13d3756c84fecac96f5a2d124370, type: 3}
+  - {fileID: 8300000, guid: a0ca8964c08d54c5dbebf245bdc474ca, type: 3}
 --- !u!1 &6439423347565166204
 GameObject:
   m_ObjectHideFlags: 0
