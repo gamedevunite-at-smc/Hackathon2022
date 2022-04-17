@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2055102311959635375
 Transform:
@@ -73,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1869315837
-  m_SortingLayer: 0
+  m_SortingLayerID: 1049617723
+  m_SortingLayer: 6
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300068, guid: 29c9cded5e558164aaf8c9bf08aa1510, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -134,12 +134,14 @@ MonoBehaviour:
   m_ApplyToSortingLayers: 00000000
   m_ShapePath:
   - {x: -0.46875, y: 0, z: 0}
-  - {x: -0.46875, y: 1.28125, z: 0}
-  - {x: 0.46875, y: 1.28125, z: 0}
+  - {x: -0.46623182, y: 0.4510491, z: 0}
+  - {x: -0.43757105, y: 0.49793077, z: 0}
+  - {x: 0.43386602, y: 0.49162412, z: 0}
+  - {x: 0.46667862, y: 0.4480002, z: 0}
   - {x: 0.46875, y: 0, z: 0}
-  m_ShapePathHash: 0
+  m_ShapePathHash: 1239010061
   m_Mesh: {fileID: 0}
-  m_InstanceId: -21124
+  m_InstanceId: -123850
 --- !u!1 &2055102312182832482
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,8 +157,8 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 0
 --- !u!4 &2055102312182832481
 Transform:
   m_ObjectHideFlags: 0
