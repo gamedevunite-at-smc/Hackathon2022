@@ -60,12 +60,15 @@ public class MarkerEnabledScript : MonoBehaviour
 
             yield return new WaitForEndOfFrame();
 
-            UnityEngine.Debug.Log("We keep getting here?");
-
         }
 
         spriteColorAnimation.run = true;
 
+    }
+
+    public void Reset()
+    {
+        
     }
 
     private void SetIntensity(float intensity)
