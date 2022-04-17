@@ -5,43 +5,23 @@ using UnityEngine.Tilemaps;
 
 public class PlayerFootsteps : MonoBehaviour
 {
-    private new Transform transform;
-
-    private Tilemap tilemap;
-
     private AudioSource audioSource;
 
-    public AudioClip stepSound;
-
-    public Color color;
-
-    public List<Sprite> greyTiles;
+    private PlayerTileValue playerTileValue;
 
     public List<AudioClip> grassSoundClips;
     public List<AudioClip> rockSoundClips;
 
-    public Color grayColor;
-    public Color greenColor;
-
-    public Sprite sprite;
-
     private void Awake()
     {
-        transform = GetComponent<Transform>();
+        playerTileValue = GetComponentInParent<PlayerTileValue>();
 
         audioSource = GetComponent<AudioSource>();
-
-        tilemap = FindObjectOfType<Tilemap>();
     }
 
     public void Step()
     {
-
-        var cell = tilemap.WorldToCell(transform.position);
-
-        sprite = tilemap.GetSprite(cell);
-
-        var audioClip = greyTiles.Contains(sprite) ? PlayGrayClip() : PlayGreenClip();
+        var audioClip = playerTileValue.OnRoad ? PlayGrayClip() : PlayGreenClip();
 
         if(audioSource != null)
         {
@@ -50,8 +30,6 @@ public class PlayerFootsteps : MonoBehaviour
     }
     public AudioClip PlayGrayClip()
     {
-        UnityEngine.Debug.Log("Play gray");
-
         var index = Random.Range(0, rockSoundClips.Count);
 
         if (index < rockSoundClips.Count)
@@ -63,8 +41,6 @@ public class PlayerFootsteps : MonoBehaviour
     }
     public AudioClip PlayGreenClip()
     {
-        UnityEngine.Debug.Log("Play green");
-
         var index = Random.Range(0, grassSoundClips.Count);
 
         if(index < grassSoundClips.Count)
